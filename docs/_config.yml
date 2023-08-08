@@ -32,9 +32,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
-collections:
-  - staff_members:
-    - people: true
+#collections:
+ # - staff_members:
+  #  - people: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
