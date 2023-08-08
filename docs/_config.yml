@@ -33,9 +33,9 @@ plugins:
   - jekyll-feed
 
 collections:
-  _staff_members:
+  staff_members:
     output: false
-  _tutorials:
+  tutorials:
     output: true
   
 # Exclude from processing.
