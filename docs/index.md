@@ -7,9 +7,9 @@ Welcome to Zip Captions Helpdesk
 
 {% for tutorial in site.tutorials %}
   <h2>
-    <a href="{{ tutorial.url }}">
+    <a href="{{ tutorial.url | prepend: site.baseurl}}">
       {{ tutorial.title }}
     </a>
   </h2>
-  <p>{{ tutorial.content | markdownify }}</p>
+  <p>{{ tutorial.description | markdownify }}</p>
 {% endfor %}
