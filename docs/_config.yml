@@ -34,9 +34,9 @@ plugins:
 
 collections:
   _staff_members:
-    output:  false
+    output: false
   _tutorials:
-    output:  true
+    output: true
   
 # Exclude from processing.
 # The following items will not be processed, by default.
