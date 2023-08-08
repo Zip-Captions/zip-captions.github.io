@@ -5,11 +5,11 @@ layout: default
 
 Welcome to Zip Captions Helpdesk
 
-{% for tutorials in site.tutorials %}
+{% for tutorial in site.tutorials %}
   <h2>
-    <a href="{{ tutorials.url }}">
-      {{ tutorials.title }}
+    <a href="{{ tutorial.url }}">
+      {{ tutorial.title }}
     </a>
   </h2>
-  <p>{{ tutorials.content | markdownify }}</p>
+  <p>{{ tutorial.content | markdownify }}</p>
 {% endfor %}
