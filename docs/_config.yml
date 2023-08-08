@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
  Zip Captions is a Live Captioning tool which lives right in your browser. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zipcaptions.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
