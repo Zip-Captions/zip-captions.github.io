@@ -33,8 +33,7 @@ plugins:
   - jekyll-feed
 
 collections:
- - staff_members:
-  - people: true
+ - staff_members
   
 # Exclude from processing.
 # The following items will not be processed, by default.
