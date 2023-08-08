@@ -33,9 +33,10 @@ plugins:
   - jekyll-feed
 
 collections:
-  -  staff_members
-  -  tutorials:
-    -  output: true
+  _staff_members:
+    output:  false
+  _tutorials:
+    output:  true
   
 # Exclude from processing.
 # The following items will not be processed, by default.
