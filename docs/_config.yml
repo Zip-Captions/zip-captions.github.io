@@ -34,6 +34,7 @@ plugins:
 
 collections:
  - staff_members
+ - tutorials
   
 # Exclude from processing.
 # The following items will not be processed, by default.
