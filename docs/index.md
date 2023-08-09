@@ -4,14 +4,15 @@ layout: default
 ---
 ![Zip Captions logo](/assets/zip.jpg)
 
-Welcome to Zip Captions Helpdesk
+<h1>Welcome to Zip Captions Helpdesk</h1>
 
+<h2>Help Articles</h2>
 {% for tutorial in site.tutorials %}
-  <h2>
+  <h3>
     <a href="{{ tutorial.url | prepend: site.baseurl}}">
       {{ tutorial.title }}
     </a>
-  </h2>
+  </h3>
   <p>{{ tutorial.description | markdownify }}</p>
 {% endfor %}
 
