@@ -2,6 +2,7 @@
 title: Welcome to Zip Captions
 layout: default
 ---
+![Zip Captions logo](/assets/zip.jpg)
 
 Welcome to Zip Captions Helpdesk
 
