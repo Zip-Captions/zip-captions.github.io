@@ -13,3 +13,6 @@ Welcome to Zip Captions Helpdesk
   </h2>
   <p>{{ tutorial.description | markdownify }}</p>
 {% endfor %}
+
+
+<button name="button" onclick="https://www.zipcaptions.app">Go to Zip Captions Now</button>
