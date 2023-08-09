@@ -6,6 +6,16 @@ layout: default
 
 <h1>Welcome to Zip Captions Helpdesk</h1>
 
+Zip Captions is a browser based live captioning tool. Zip Captions main features are:
+
+- Free!
+- Accurate transcription
+- Speech pause recognition creating a new line with pauses for more natural transcription
+- Customisable themes and settings
+- Transcription in English, French, Spanish, German and Italian
+- Multi device support
+- More features coming soon
+
 <h2>Help Articles</h2>
 {% for tutorial in site.tutorials %}
   <h3>
