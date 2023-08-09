@@ -28,9 +28,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Zip-Captions
 
 # Build settings
-remote_theme: just-the-docs
+theme: minima
 plugins:
   - jekyll-feed
+
 
 collections:
   staff_members:
