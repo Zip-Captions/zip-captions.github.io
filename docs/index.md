@@ -18,6 +18,7 @@ Zip Captions is a browser based live captioning tool. Zip Captions main features
 
 <a href="https://www.zipcaptions.app">Go to Zip Captions Now</a>
 
+<hr>
 <h2>Help Articles</h2>
 {% for tutorial in site.tutorials %}
   <h3>
