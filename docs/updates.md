@@ -1,7 +1,7 @@
 ---
 title: Latest Updates
 description: See the latest features & updates
-layout: deafult
+layout: default
 ---
 <h1>Latest Updates</h1>
 
