@@ -8,7 +8,7 @@ layout: default
 <h3>Keep track of our latest updates & features to learn what is new in each version:</h3>
 
 <ul>
-  {% for post in site.posts %}
+  {% for post of site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
