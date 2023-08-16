@@ -8,9 +8,7 @@ layout: default
 <h3>Keep track of our latest updates & features to learn what is new in each version:</h3>
 
 <ul>
-  {% for post of site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+{% for post in site.posts limit:5 %}  
+  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
+{% endfor %} 
 </ul>
