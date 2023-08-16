@@ -11,7 +11,8 @@ layout: default
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <p>{{ post.date | date: "%-d %B %Y" }}</p>
+      <a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
