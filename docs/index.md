@@ -22,15 +22,11 @@ Zip Captions is a browser based live captioning tool. Zip Captions main features
 <h2>Most Recent Updates</h2>
 <ul class="entries">
    {% for post in site.posts limit:2 %}
-  <article>
     <h2>
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | prepend: site.baseurl}}">
         {{ post.title }}
       </a>
     </h2>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.content }}
-  </article>
 {% endfor %}
 </ul>
 
