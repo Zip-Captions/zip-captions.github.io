@@ -18,7 +18,7 @@ The following new features can be found in version 0.0.9:
 <h3>OBS WebSocket Support</h3>
 
 Open Broadcasting Software Studio will now accept captioning from ZipCaptions using the WebSocket interface. 
-You can set up WebSocket Captions using the instructions which can be found here: { site.baseurl }{% link /_tutorials/obs_web_sockets.md %}.
+You can set up WebSocket Captions using the instructions which can be found here: { site.baseurl }{% link /tutorials/obs_web_sockets.md %}.
 
 <h3>Donate with Patreon</h3>
 
