@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Version 44"
-tag: Version Update
----
-
-Coming Soon

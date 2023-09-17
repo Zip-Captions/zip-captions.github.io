@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Version 0.0.9 (16/09/23)"
+tag: Version Update
+---
+
+<h2>Version 0.0.9</h2>
+
+Released on: 16/09/23
+
+The following new features can be found in version 0.0.9:
+
+- OBS WebSocket Support
+- Donate with Patreon button
+- Ability to install the app as a web app
+- Link added to the help site
+
+<h3>OBS WebSocket Support</h3>
+
+Open Broadcasting Software Studio will now accept captioning from ZipCaptions using the WebSocket interface. 
+You can set up WebSocket Captions using the instructions which can be found here: { site.baseurl }{% link obs_web_sockets.md %}.
+
+<h3>Donate with Patreon</h3>
+
+Patreon is a platform to allow you to support creators online. As part of your Patreon pledge of either $1 or $5 at this time you will get access to different perks. You can learn more on our Patreon page [here.](https://patreon.com/ZipCaptions){:target="_blank"}{:rel="noopener noreferrer"}
+
+<h3>Ability to install the app as a Web App </h3>
+
+You can now install ZipCaptions onto your device so that you can find it more easily. You should be prompted to install it, but in case you do not, you can do this manually from the menu. Click on the menu in the browser, then choose **Install ZipCaptions** from the menu. 
+
+<h3>Link to Help Site</h3>
+
+You can now access our help pages from the app more easily. Click on the menu in ZipCaptions, and find the help pages in the Support Section. 
+
+
