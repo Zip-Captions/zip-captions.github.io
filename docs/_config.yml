@@ -32,6 +32,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+social_links:
+    - { platform: instagram,      user_url: "https://www.instagram.com/zipcaptions" }
+    - { platform: youtube,      user_url: "https://www.youtube.com/@ZipCaptions" }
+
+header_pages:
+  - about.md
+  - updates.md
+  - index.md
+
+
 
 collections:
   staff_members:
