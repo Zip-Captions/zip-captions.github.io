@@ -26,15 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://help.zipcaptions.app" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Zip-Captions
+youtube_username: ZipCaptions
+instagram_username: zipcaptions
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-social_links:
-  - { platform: instagram, user_url: "https://www.instagram.com/zipcaptions" }
-  - { platform: youtube, user_url: "https://www.youtube.com/@ZipCaptions" }
+
 
 header_pages:
   - about.markdown
