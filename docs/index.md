@@ -30,14 +30,4 @@ Zip Captions is a browser based live captioning tool. Zip Captions main features
 {% endfor %}
 </ul>
 
-<hr>
-<h2>Help Articles</h2>
-{% for tutorial in site.tutorials %}
-  <h3>
-    <a href="{{ tutorial.url | prepend: site.baseurl}}">
-      {{ tutorial.title }}
-    </a>
-  </h3>
-  <p>{{ tutorial.description | markdownify }}</p>
-{% endfor %}
 
