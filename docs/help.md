@@ -7,6 +7,7 @@ layout: default
 
 <!-- Html Elements for Search -->
 <div id="search-container">
+Search our help articles:
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
 </div>
