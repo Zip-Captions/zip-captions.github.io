@@ -1,14 +1,14 @@
 ---
 ---
 [
-  {% for post in site.posts %}
+  {% for tutorial in site.tutorials %}
     {
 
-      "title"    : "{{ post.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "date"     : "{{ post.date }}"
+      "title"    : "{{ tutorial.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ tutorial.url }}",
+      "category" : "{{ tutorial.category }}",
+      "tags"     : "{{ tutorial.tags | join: ', ' }}",
+      "date"     : "{{ tutorial.date }}"
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
