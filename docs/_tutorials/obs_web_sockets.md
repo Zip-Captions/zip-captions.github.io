@@ -3,6 +3,7 @@ title: Using ZipCaptions with OBS to add Live Captions to your streams
 description: ZipCaptions will connect with OBS using Web Sockets to allow you to add Live Captioning to your streams
 layout: default
 ---
+<h2>Using ZipCaptions with OBS to add Live Captions to your streams</h2>
 
 To use this feature there are some steps that you will need to follow in both ZipCaptions, and in OBS. Before we begin you need to ensure that you have the following:
 

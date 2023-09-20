@@ -3,6 +3,8 @@ title: Preventing the Microphone from Sleeping
 description: Sometimes the microphone will sleep preventing captioning from running
 layout: default
 ---
+<h2>Preventing the Microphone from Sleeping</h2>
+
 ISSUE: The microphone will sleep when the active tab is moved away from
 
 SOLUTION: Instead of running the app in an active tab, install the Progressive Web App (PWA) version of ZipCaptions.
