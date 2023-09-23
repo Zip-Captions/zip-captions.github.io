@@ -7,3 +7,39 @@
 body {
       font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+
+.site-header {
+      background-color: rgb(1 121 198);
+}
+
+.site-title, .site-title:visited {
+      color: white;
+}
+
+.site-nav .page-link:not(:last-child) {
+      color: lightgrey;
+}
+
+.site-footer {
+      background-color: rgb(1 121 198);
+}
+
+.footer-heading {
+      color: white;
+}
+
+.contact-list, .social-media-list {
+      color: lightgray;
+}
+
+.svg-icon {
+      fill: #409edb;
+}
+
+a:visited {
+      color: #409edb;
+}
+
+.footer-col-wrapper {
+      color: lightgray;
+}
