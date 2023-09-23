@@ -37,9 +37,9 @@ plugins:
 
 
 header_pages:
+  - index.md
   - about.markdown
   - updates.md
-  - index.md
   - help.md
 
 
