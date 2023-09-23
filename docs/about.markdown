@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 ---
-<h1>About Us</h1>
-
 <h2>Mission</h2>
 
 <h3>Our Goal</h3>
