@@ -3,6 +3,8 @@ title: KB1 - Microphone Sleeps or Becomes Unresponsive Using OBS
 description: The microphone may become unresponsive when using OBS
 layout: default
 ---
+<h1>KB1 - Microphone Sleeps or Becomes Unresponsive Using OBS</h1>
+
 ISSUE: 
 
 When using OBS the microphone may become unresponsive as the browser window is forced into the background
