@@ -4,7 +4,7 @@
   {% for kb in site.knowledge_base %}
     {
 
-      "title"    : "{{ .title | escape }}",
+      "title"    : "{{ kb.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ kb.url }}",
       "category" : "{{ kb.category }}",
       "tags"     : "{{ kb.tags | join: ', ' }}",
