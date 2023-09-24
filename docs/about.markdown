@@ -37,6 +37,8 @@ permalink: /about/
 
 <p>ZipCaptions is currently operated on an entirely voluntary basis by two educators based out of Quebec, Canada. Chris is responsible for operations - general management, finances, communications, marketing, support, and content. James is responsible for the technical aspects - development, hosting, integrations, bugs, etc. The feature roadmap is built in collaboration with our community of supporters on Patreon.</p>
 
+<hr>
+
 {% for staff_member in site.staff_members %}
   <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
   <p>{{ staff_member.content | markdownify }}</p>

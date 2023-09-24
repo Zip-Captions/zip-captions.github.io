@@ -1,0 +1,15 @@
+---
+---
+[
+  {% for kb in site.knowledge_base %}
+    {
+
+      "title"    : "{{ .title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ kb.url }}",
+      "category" : "{{ kb.category }}",
+      "tags"     : "{{ kb.tags | join: ', ' }}",
+      "date"     : "{{ kb.date }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
