@@ -2,6 +2,7 @@
 title: Microphone Errors
 description: Sometimes the Microphone shows an error or appears as an exclamation mark. Learn more about how to fix that. 
 layout: default
+category: Troubleshooting
 ---
 ISSUE: The Microphone Appears as an Exclamation Mark (⚠️)
 

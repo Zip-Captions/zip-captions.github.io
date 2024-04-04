@@ -2,6 +2,7 @@
 title: Syncing your Settings on Zip Captions
 description: How to sync your settings on Zip Captions
 layout: default
+category: Settings
 ---
 
 Zip Captions can sync your settings against your stored settings on our cloud server. This allows you to store your preferred settings across multiple devices, or to restore your settings after a temporary change.

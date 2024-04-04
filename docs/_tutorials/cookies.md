@@ -2,6 +2,7 @@
 title: About Our Cookies
 description: We use cookies to store your user settings, learn more about how we're doing that
 layout: default
+category: Settings
 ---
 
 We use cookies to save your settings, that’s all that we do with them. 

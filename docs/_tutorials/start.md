@@ -2,6 +2,7 @@
 title: Getting Started with Zip Captions
 description: Getting started with Zip Captions is really simple
 layout: default
+category: General
 ---
 
 Getting started with Zip Captions is really simple.

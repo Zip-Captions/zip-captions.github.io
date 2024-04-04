@@ -32,3 +32,15 @@ SimpleJekyllSearch({
   </h3>
   <p>{{ tutorial.description | markdownify }}</p>
 {% endfor %}
+
+<ul>
+{% for tutorial in site.tutorials %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for tutorial in category.last %}
+      <li><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

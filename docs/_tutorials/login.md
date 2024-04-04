@@ -2,6 +2,7 @@
 title: Logging in to Zip Captions
 description: How to log in to Zip Captions using your Google or Microsoft Accounts
 layout: default
+category: Accounts
 ---
 
 Logging into Zip Captions can be achieved by using a Google or Microsoft account.

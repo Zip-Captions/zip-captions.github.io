@@ -2,6 +2,7 @@
 title: Captioning Live Media
 description: How to caption live media in the browser
 layout: default
+category: Other
 ---
 
 Google Chrome has a built in tool to allow you to caption live media in the browser.

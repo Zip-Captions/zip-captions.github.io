@@ -2,6 +2,7 @@
 title: Preventing the Microphone from Sleeping
 description: Sometimes the microphone will sleep preventing captioning from running
 layout: default
+category: Troubleshooting
 ---
 <h2>Preventing the Microphone from Sleeping</h2>
 
